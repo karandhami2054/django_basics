@@ -14,6 +14,11 @@ def main(request):
   template = loader.get_template('main.html')
   return HttpResponse(template.render())
 
-def contacts(request):
-  template = loader.get_template('contacts.html')
+
+
+
+
+
+def about(request):
+  template = loader.get_template('about.html')
   return HttpResponse(template.render())
